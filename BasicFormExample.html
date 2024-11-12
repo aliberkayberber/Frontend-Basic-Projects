@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Basic Form</h1>
+    <form>
+        <fieldset>
+        <legend>Form</legend>
+
+            <div>
+            <!-- Text Input -->
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+
+            <br>
+            <div>
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            </div>
+
+            <br>
+            <div>
+            <!-- Password Input -->
+            <label for="pwd">Şifre:</label>
+            <input type="password" id="pwd" name="pwd"      minlength="8" required>
+            </div>
+
+            <br>
+            <div>
+            <!-- Date Input -->
+            <label for="birth">Birth Day</label>
+            <input type="date" id="birth" name="birth" required>               
+            </div>
+
+            <div>
+            <!-- Radio Button Input -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender"         value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender"       value="female" required>
+            <label for="female">Female</label>
+            </div>
+
+            <br>
+            <div>
+            <!-- Checkbox Input -->
+            <label>Fruit:</label>
+            <input type="checkbox" name="fruits[]"      value="apple">Apple
+            <input type="checkbox" name="fruits[]"      value="banana">Banana
+            <input type="checkbox" name="fruits[]"      value="orange">Orange 
+            </div>
+      
+            <br>
+            <div>
+            <!-- Textarea Input -->
+            <label for="message">Message</label>
+            <textarea name="message" id="message"       rows="4"cols="40"></textarea>
+            </div>
+
+             <br>
+             <div>
+             <!-- Submit Button -->
+             <input type="submit">
+             </div>
+
+        </fieldset>
+       
+
+
+
+    </form>
+</body>
+</html>
